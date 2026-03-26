@@ -10,21 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     
     <style>
-        /* CONFIGURACIÓN DEL FONDO CON TU FOTO (Estilo profesional) */
+        /* REVERTIENDO EL FONDO A UN AZUL OSCURO LIMPIDO */
         body {
             margin: 0;
             padding: 0;
+            background-color: #0d0d1a; /* Fondo limpio y oscuro */
             min-height: 100vh;
-            /* Efecto profesional: Superposición oscura + Imagen de fondo */
-            background-image: 
-                /* 1. Capa de oscurecimiento (Luminosity overlay) para asegurar legibilidad */
-                linear-gradient(rgba(13, 13, 26, 0.8), rgba(13, 13, 26, 0.9)), 
-                /* 2. TU FOTO. Cambia 'mi-foto.jpg' por el nombre exacto de tu archivo */
-                url('greetings.png'); 
-            background-size: cover; /* La foto cubre toda la pantalla */
-            background-position: center; /* Centrada */
-            background-attachment: fixed; /* Efecto Parallax: El contenido sube, la foto se queda fija. ¡Súper elegante! */
-            background-repeat: no-repeat;
         }
     </style>
 </head>
@@ -32,12 +23,20 @@
 
     <div style="font-family: 'Open Sans', Arial, sans-serif; background-color: rgba(13, 13, 26, 0.6); color: #f0f0f0; padding: 20px; max-width: 1000px; margin: 0 auto; backdrop-filter: blur(5px);">
 
+        <div style="font-family: 'Open Sans', Arial, sans-serif; background-color: #1a1a2e; border-radius: 14px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 20px; display: flex; align-items: center; padding: 20px; gap: 20px;">
+            <img src="greetings.jpg" alt="Profesor Ismael Arroyo" style="width: 100px; height: 100px; border-radius: 50%; border: 2px solid #ffd700; object-fit: cover;">
+            
+            <div style="display: flex; flex-direction: column;">
+                <h3 style="font-family: 'Montserrat', sans-serif; color: #ffd700; font-size: 22px; margin: 0;">🎓 ¡Bienvenidos!</h3>
+                <p style="color: #8892b0; font-size: 14px; margin: 5px 0 0 0;">Soy el Prof. Ismael Arroyo y los invito a resolver estas misiones de Anualidades Anticipadas. ¡Éxito en sus cálculos!</p>
+            </div>
+        </div>
         <div style="margin-bottom: 30px; border-bottom: 2px solid #e94560; padding-bottom: 10px;">
             <h2 style="font-family: 'Montserrat', sans-serif; color: #ffd700; font-size: 26px; margin: 0;">🎯 Tarjetas de Misión: Anualidades Anticipadas</h2>
             <p style="color: #8892b0; font-size: 14px;">Resuelve los siguientes retos en equipo. ¡El primero en entregar la solución correcta gana!</p>
         </div>
 
-        <div style="background-color: rgba(26, 26, 46, 0.8); border-radius: 14px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 30px;">
+        <div style="background-color: #1a1a2e; border-radius: 14px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 30px;">
             <div style="background-color: #0f3460; padding: 15px 20px; display: flex; align-items: center;">
                 <span style="font-size: 30px; margin-right: 15px;">🎯</span>
                 <div>
