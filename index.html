@@ -10,25 +10,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     
     <style>
-        /* Aseguramos que el fondo oscuro cubra toda la pantalla y no haya bordes blancos */
+        /* CONFIGURACIÓN DEL FONDO CON TU FOTO (Estilo profesional) */
         body {
             margin: 0;
             padding: 0;
-            background-color: #0d0d1a;
             min-height: 100vh;
+            /* Efecto profesional: Superposición oscura + Imagen de fondo */
+            background-image: 
+                /* 1. Capa de oscurecimiento (Luminosity overlay) para asegurar legibilidad */
+                linear-gradient(rgba(13, 13, 26, 0.8), rgba(13, 13, 26, 0.9)), 
+                /* 2. TU FOTO. Cambia 'mi-foto.jpg' por el nombre exacto de tu archivo */
+                url('greetings.png'); 
+            background-size: cover; /* La foto cubre toda la pantalla */
+            background-position: center; /* Centrada */
+            background-attachment: fixed; /* Efecto Parallax: El contenido sube, la foto se queda fija. ¡Súper elegante! */
+            background-repeat: no-repeat;
         }
     </style>
 </head>
 <body>
 
-    <div style="font-family: 'Open Sans', Arial, sans-serif; background-color: #0d0d1a; color: #f0f0f0; padding: 20px; max-width: 1000px; margin: 0 auto;">
+    <div style="font-family: 'Open Sans', Arial, sans-serif; background-color: rgba(13, 13, 26, 0.6); color: #f0f0f0; padding: 20px; max-width: 1000px; margin: 0 auto; backdrop-filter: blur(5px);">
 
         <div style="margin-bottom: 30px; border-bottom: 2px solid #e94560; padding-bottom: 10px;">
             <h2 style="font-family: 'Montserrat', sans-serif; color: #ffd700; font-size: 26px; margin: 0;">🎯 Tarjetas de Misión: Anualidades Anticipadas</h2>
-            <p style="color: #8892b0; font-size: 14px;">Resuelve los siguientes retos en equipo.</p>
+            <p style="color: #8892b0; font-size: 14px;">Resuelve los siguientes retos en equipo. ¡El primero en entregar la solución correcta gana!</p>
         </div>
 
-        <div style="background-color: #1a1a2e; border-radius: 14px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 30px;">
+        <div style="background-color: rgba(26, 26, 46, 0.8); border-radius: 14px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 30px;">
             <div style="background-color: #0f3460; padding: 15px 20px; display: flex; align-items: center;">
                 <span style="font-size: 30px; margin-right: 15px;">🎯</span>
                 <div>
@@ -45,7 +54,7 @@
                     <div style="position: absolute; top: 12px; right: 16px; background: #e94560; color: #fff; padding: 3px 10px; border-radius: 6px; font-size: 9px; font-weight: bold; letter-spacing: 2px;">MISIÓN</div>
                     <h4 style="color: #ffd700; margin: 0 0 10px 0; font-size: 16px;">🚗 MISIÓN 1 — El Carro Soñado de Salvador</h4>
                     <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 8px; font-size: 13px; line-height: 1.6; color: #cdd6f4; margin-bottom: 15px;">
-                        Salvador quiere comprar un auto y la agencia le ofrece pagarlo en mensualidades <strong>anticipadas</strong> de <strong>$4,800</strong> durante <strong>24 meses</strong>. La tasa de financiamiento es del <strong>1.5% mensual</strong>. ¿Cuánto cuesta el auto hoy en efectivo?
+                        Salvador quiere comprar un auto y la agencia le ofrece pagarlo en mensualidades <strong>anticipadas</strong> de <strong>$4,800</strong> durante <strong>24 meses</strong>. La tasa de financiamiento es del 1.5% mensual. ¿Cuánto cuesta el auto hoy en efectivo?
                     </div>
                     <div style="display: flex; gap: 10px; margin-bottom: 15px;">
                         <div style="flex: 1; background: rgba(255,215,0,0.1); border: 1px solid rgba(255,215,0,0.3); padding: 10px; text-align: center; border-radius: 8px;">
@@ -73,7 +82,7 @@
                     <div style="position: absolute; top: 12px; right: 16px; background: #00b4d8; color: #fff; padding: 3px 10px; border-radius: 6px; font-size: 9px; font-weight: bold; letter-spacing: 2px;">MISIÓN</div>
                     <h4 style="color: #00b4d8; margin: 0 0 10px 0; font-size: 16px;">🏢 MISIÓN 2 — El Local de Jared</h4>
                     <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 8px; font-size: 13px; line-height: 1.6; color: #cdd6f4; margin-bottom: 15px;">
-                        Jared quiere abrir una papelería y necesita arrendar un local. El dueño le cobra <strong>$2,200 mensuales anticipados</strong> durante <strong>18 meses</strong> con tasa de interés del <strong>2% mensual</strong>. ¿Cuánto vale el arrendamiento completo en términos de hoy?
+                        Jared quiere abrir una papelería y necesita arrendar un local. El dueño le cobra <strong>$2,200 mensuales anticipados</strong> durante <strong>18 meses</strong> con tasa de interés del 2% mensual. ¿Cuánto vale el arrendamiento completo en términos de hoy?
                     </div>
                     <div style="display: flex; gap: 10px; margin-bottom: 15px;">
                         <div style="flex: 1; background: rgba(0,180,216,0.1); border: 1px solid rgba(0,180,216,0.3); padding: 10px; text-align: center; border-radius: 8px;">
@@ -101,7 +110,7 @@
                     <div style="position: absolute; top: 12px; right: 16px; background: #2ecc71; color: #1a1a2e; padding: 3px 10px; border-radius: 6px; font-size: 9px; font-weight: bold; letter-spacing: 2px;">MISIÓN</div>
                     <h4 style="color: #2ecc71; margin: 0 0 10px 0; font-size: 16px;">📱 MISIÓN 3 — El Celular de Iñaki</h4>
                     <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 8px; font-size: 13px; line-height: 1.6; color: #cdd6f4; margin-bottom: 15px;">
-                        Iñaki quiere un smartphone. La tienda le ofrece pagarlo en <strong>$1,100 quincenales anticipados</strong> durante <strong>20 quincenas</strong> con tasa del <strong>1.2% quincenal</strong>. ¿Cuánto vale el celular hoy?
+                        Iñaki quiere un smartphone. La tienda le ofrece pagarlo en <strong>$1,100 quincenales anticipados</strong> durante <strong>20 quincenas</strong> con tasa del 1.2% quincenal. ¿Cuánto vale el celular hoy?
                     </div>
                     <div style="display: flex; gap: 10px; margin-bottom: 15px;">
                         <div style="flex: 1; background: rgba(46,204,113,0.1); border: 1px solid rgba(46,204,113,0.3); padding: 10px; text-align: center; border-radius: 8px;">
